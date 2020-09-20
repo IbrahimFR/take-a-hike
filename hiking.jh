@@ -1,0 +1,30 @@
+entity Trails {
+    id  Long,
+	name String,
+    startTime Instant,
+    endTime Instant,
+    ageLimit String,
+    price String
+}
+
+entity Users {
+    id Long,
+	firstName String,
+    lastName String,
+    email String,
+    phoneNumber String,
+    password String
+}
+
+entity Bookings {
+    id Long,
+	status Status
+}
+
+enum Status {
+    PENDING, CONFIRMED, CANCELED
+}
+relationship OneToMany {
+	Trails to Bookings{trail},
+	Users to Bookings{user}
+}
