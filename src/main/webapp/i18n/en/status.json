@@ -1,0 +1,10 @@
+{
+  "takeAHikeApp": {
+    "Status": {
+      "null": "",
+      "PENDING": "PENDING",
+      "CONFIRMED": "CONFIRMED",
+      "CANCELED": "CANCELED"
+    }
+  }
+}

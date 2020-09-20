@@ -1,0 +1,24 @@
+{
+  "takeAHikeApp": {
+    "bookings": {
+      "home": {
+        "title": "Bookings",
+        "createLabel": "Create a new Bookings",
+        "createOrEditLabel": "Create or edit a Bookings",
+        "notFound": "No Bookings found"
+      },
+      "created": "A new Bookings is created with identifier {{ param }}",
+      "updated": "A Bookings is updated with identifier {{ param }}",
+      "deleted": "A Bookings is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Bookings {{ id }}?"
+      },
+      "detail": {
+        "title": "Bookings"
+      },
+      "status": "Status",
+      "trail": "Trail",
+      "user": "User"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "takeAHikeApp": {
+    "trails": {
+      "home": {
+        "title": "Trails",
+        "createLabel": "Create a new Trails",
+        "createOrEditLabel": "Create or edit a Trails",
+        "notFound": "No Trails found"
+      },
+      "created": "A new Trails is created with identifier {{ param }}",
+      "updated": "A Trails is updated with identifier {{ param }}",
+      "deleted": "A Trails is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Trails {{ id }}?"
+      },
+      "detail": {
+        "title": "Trails"
+      },
+      "name": "Name",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "ageLimit": "Age Limit",
+      "price": "Price",
+      "bookings": "Bookings"
+    }
+  }
+}

@@ -47,6 +47,11 @@ public class CacheConfiguration {
             createCache(cm, com.ibrahim.takehike.domain.User.class.getName());
             createCache(cm, com.ibrahim.takehike.domain.Authority.class.getName());
             createCache(cm, com.ibrahim.takehike.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.ibrahim.takehike.domain.Trails.class.getName());
+            createCache(cm, com.ibrahim.takehike.domain.Trails.class.getName() + ".bookings");
+            createCache(cm, com.ibrahim.takehike.domain.Users.class.getName());
+            createCache(cm, com.ibrahim.takehike.domain.Users.class.getName() + ".bookings");
+            createCache(cm, com.ibrahim.takehike.domain.Bookings.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
