@@ -1,0 +1,44 @@
+entity Trails {
+    id  Long,
+	name String,
+    start DateTime,
+    end DateTime,
+    ageLimit String,
+    price String
+}
+
+entity Users {
+    id Long,
+	firstName String,
+    lastName String,
+    email String,
+    phoneNumber String,
+    password String
+}
+
+entity Bookings {
+    id Long,
+	status Status
+}
+
+
+entity Status {
+	title String,
+	description String
+}
+
+
+relationship ManyToMany {
+	Bookings{Status(title)} to Status{status}
+}
+relationship OneToMany {
+	Trails to Bookings{trail},
+	/**
+	* A relationship
+	*/
+	Users to
+	/**
+	* Another side of the same relationship
+	*/
+	Bookings{user}
+}
